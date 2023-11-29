@@ -871,7 +871,7 @@ static int idamax(int n,REAL *dx,int incx)
 static REAL second(void)
 
     {
-    return ((REAL)((REAL)clock()/(REAL)CLOCKS_PER_SEC));
+    return 0;
     }
 
 
