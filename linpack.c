@@ -27,6 +27,7 @@
 #include <math.h>
 #include <time.h>
 #include <float.h>
+#include <unistd.h>
 
 #define DP
 
@@ -871,7 +872,5 @@ static int idamax(int n,REAL *dx,int incx)
 static REAL second(void)
 
     {
-    return 0;
+    return ((REAL)((REAL)clock()/(REAL)CLOCKS_PER_SEC));
     }
-
-
